@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_26_182135) do
+ActiveRecord::Schema.define(version: 2021_03_27_173224) do
 
   create_table "lists", force: :cascade do |t|
     t.string "name"
@@ -26,9 +26,9 @@ ActiveRecord::Schema.define(version: 2021_03_26_182135) do
     t.string "image_url"
     t.string "zip_code"
     t.integer "list_id"
-    t.integer "rating"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.float "rating"
   end
 
 end
