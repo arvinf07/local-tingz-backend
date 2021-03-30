@@ -6,7 +6,8 @@ class ListsController < ApplicationController
   end
 
   def create
-    byebug
+    new_list = List.create(name: params['name'])
+    render json: new_list.to_json
   end
 
 end
