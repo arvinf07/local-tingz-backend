@@ -26,4 +26,5 @@ class LocationsController < ApplicationController
     render json: locations.to_json
   end
 
+
 end
