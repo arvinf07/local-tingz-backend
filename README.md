@@ -1,6 +1,6 @@
 # local-tingz-backend
 
-The backend used LocalTingz to store and sen data to frontend. 
+The backend used LocalTingz to store and send data to frontend. 
 
 ## Installation
 
